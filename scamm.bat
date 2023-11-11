@@ -8,7 +8,7 @@ set "outputFile=scamm.mp4"
 powershell -command "(New-Object System.Net.WebClient).DownloadFile('%url%', '%outputFile%')"
 
 if exist %outputFile% (
-    echo Got fucked lmao
+    echo You just got scammed
 
     start "" "%outputFile%"
 ) else (
